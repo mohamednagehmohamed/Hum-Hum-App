@@ -1,0 +1,240 @@
+name: mealapplication
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.15.0 <3.0.0"
+
+# Dependencies specify other packages that your package needs in order to work.
+# To automatically upgrade your package dependencies to the latest versions
+# consider running `flutter pub upgrade --major-versions`. Alternatively,
+# dependencies can be manually updated by changing the version numbers below to
+# the latest version available on pub.dev. To see which dependencies have newer
+# versions available, run `flutter pub outdated`.
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+  page_transition: 
+  fluttertoast:
+  shared_preferences:
+  video_player:
+  flutter_local_notifications:
+  another_flushbar:
+  confetti:
+  liquid_pull_to_refresh:
+  flutter_speed_dial:
+  google_mobile_ads:
+  provider:
+  rive:
+  device_preview:
+  flutter_spinkit:
+  flare_flutter:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/mealicon.png"     
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^1.0.0
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - images/spa.jpg
+    - images/myhelp.gif
+    - images/mymyhome.png
+    - images/yourhome.png
+    - images/icons8-home-150.png
+    - images/63-home-outline.gif
+    - images/icons8-filter.gif
+    - images/icons8-checklist.gif
+    - images/Icon-512.png
+    - images/mealicon.png
+    - images/soup.riv
+    - images/new_file.riv
+    - images/506-1005-safe-box-icon.riv
+    - images/1702-3370-instagram-2022.riv
+    - images/916-1812-loading-.riv
+    - images/709-1384-trial.riv
+    - images/1641-3225-clock.riv
+    - images/51-68-heart.riv
+    - images/850-1653-smiley-switch.riv
+    - images/1302-2493-animated-emoji-pack.riv
+    - images/spagitti.jpg
+    - images/lazania.jpg
+    - images/botterga.jpg
+    - images/177lazania.jpg
+    - images/toa.jpg
+    - images/ham.jpg
+    - images/sa.jpg
+    - images/ham2.jpg
+    - images/ger.jpg
+    - images/win.jpg
+    - images/ch.jpg
+    - images/easy-molten-chocolate-souffle-58756-1.jpeg
+    - images/sum.jpg
+    - images/li.jpg
+    - images/li2.jpg
+    - images/br.jpg
+    - images/sal.jpg
+    - images/ex.jpg
+    - images/cr.jpg
+    - images/as.jpg
+    - images/de.jpg
+    - images/food.jpg
+    - images/koshari.jpg
+    - images/toast.jpg
+    - images/classichamburg.jpg
+    - images/loc.jpg
+    - images/mysplash.jpg
+    - images/steps.png
+    - images/brimble.jpg
+    - images/vitalli.jpg
+    - images/hansel.jpg
+    - images/khloe.jpg
+    - images/caroline.jpg
+    - images/search.gif
+    - images/icons8-cursor.gif
+    - images/icons8-down.gif
+    - images/language.png
+    - images/dark.png
+    - images/location.gif
+    - images/noti.png
+    - images/exit.png
+    - images/meal.png
+    - images/lentile.jpeg
+    - images/fattah.jpg
+    - images/foul.jpg
+    - images/hummud.jpg
+    - images/flafel.jpg
+    - images/pandinner.jpg
+    - images/cheese.jpg
+    - images/brotchen.jpg
+    - images/Käsespätzle.jpg
+    - images/qnxngLU0ZS.jpeg
+    - images/Rouladen-7-500x375.jpg
+    - images/Schnitzel-5.jpg
+    - images/suerbaraten.jpg
+    - images/sovlakli.jpg
+    - images/duckfriedricesqb.jpg
+    - images/quick-tomato-and-salami-pizzas-28398-1.jpg
+    - images/12recipehealth-articleLarge-v2.jpg
+    - images/bucha.jpg
+    - images/sad-crying.gif
+    - images/sweet-miso-steak-with-ramen-14778-1.jpg
+    - images/shawerma.jpg
+    - images/Manakish-Cheese-Zaatar-4.jpg
+    - images/syrian flafel.jpg
+    - images/Yabrak-stuffed-grape-leaves.jpg
+    - images/maklopa.jpg
+    - images/Shish_barak.jpg
+    - images/eggs.jpg
+    - images/handpies.jpg
+    - images/chila.jpg
+    - images/Shakshuka-19-500x500.jpg 
+    - images/granola.jpg       
+    - images/General-Tsos-Chicken-4-1024x1536.jpg
+    - images/How-to-Cook-Beef-with-Broccoli.jpg
+    - images/Asian-Slaw_2.jpg
+    - images/cassoulet.jpg
+    - images/steak.jpg
+    - images/omelette-4fe3f28.jpg
+    - images/Creamy-Pesto-Chicken-Pasta-close-skillet.jpg
+    - images/Chicken-Bacon-and-Vegetable-Frittata_recipepolaroid.jpg
+    - images/garlic-confit-toast-6506890-msl0918_horiz.jpg
+    - images/img_0780.jpg
+    - images/Banana-Oat-Breakfast-Smoothie.jpg
+    - images/Apple-and-Cinnamon-Porridge.jpg
+    - images/Vietnamese-articleLarge-v3.jpg
+    - images/1435157108-weeknight-dinners-penne.jpg
+    - images/1496940030-delish-melon-prosciutto-skewers-pin-022.jpg
+    - images/poke-bowl-221-1550260964.jpg
+    - images/pastry-2274750_1280.jpg
+    - images/asparagus-3304997_1280.jpg
+    - images/pear-and-caramel-tarte-tatin-101649-1.jpeg
+    - images/3ac04e6a-0fe6-4891-8cc7-3db4701b4b20.jpg
+    - images/Indonesian-Gado-Gado-SQ.jpg
+    - images/R2391-photo-final-1-large-landscape-150.jpg
+    - images/Thai-Noodle-Salad-with-Peanut-Sauce-100-5.jpg
+    - images/edcf022021ae486cb7c6978f65ead60a.jpg
+    - images/heart.gif
+    - images/Wedges-3s-200px.gif
+    - images/back.png
+    - images/mefood/
+    - images/splashes/
+    - images/youfood/
+    - images/videosouce.mp4
+    - images/M0LDMW8KM9RE7JV4.mp4
+    - images/spagittisouce.mp4
+    - images/Easy Lasagna Recipe with Bechamel Sauce.mp4
+    - images/45JJ8FPSLIAJKVWY.mp4
+    - images/MJ5KW1HLZWLKC1WF.mp4
+    - images/lasagna.mp4
+    - images/How to make Italian Bottarga (Karasumi) Pasta.mp4
+    - images/RMLB7.mp3
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
